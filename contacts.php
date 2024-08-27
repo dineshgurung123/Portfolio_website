@@ -23,9 +23,9 @@ if (!$connection) {
 
         <form action="/contacts.php" method="post">
             <label for="name" class="contact">Name:</label>
-            <input type="text" id="name" class="input-name" name="name" required><br>
+            <input type="text" id="name" class="input-name" name="name"  placeholder="Enter your name"><br>
             <label for="email" class="contact">Email:</label>
-            <input type="email" id="email" class="input-email" name="email" required><br>
+            <input type="email" id="email" class="input-email" name="email" placeholder="Enter your email" required><br>
             <label for="message" class="contact">Message:</label><br>
             <textarea id="message" class="input-message" name="message" required></textarea>
             <button type="submit" class="submit">Send</button><br>
@@ -60,3 +60,21 @@ if (!$connection) {
 
     <?php include('footer.php') ?>
 </div>
+
+
+<script>
+    document.querySelector('form').addEventListener('submit', function (event) {
+        const email = document.getElementById('email').value;
+        console.log("Email entered:", email);  // Debugging step
+
+        const emailPattern = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i;
+        const isEmailValid = emailPattern.test(email);
+
+        console.log("Is email valid:", isEmailValid);  // Debugging step
+
+        if (!isEmailValid) {
+            alert("Please enter a valid email address.");
+            event.preventDefault();  // Prevent form submission if the email is invalid
+        }
+    });
+</script>

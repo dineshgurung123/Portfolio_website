@@ -120,6 +120,12 @@ header nav {
 
 }
 
+.facebook:hover{
+
+color: aquamarine;
+}
+
+
 .linkedin {
 
 
@@ -131,6 +137,10 @@ header nav {
     padding: 6px;
 
 
+}
+
+.linkedin:hover{
+  color: aquamarine;
 }
 
 .git {
@@ -145,6 +155,10 @@ header nav {
     top: 4px;
 }
 
+.git:hover{
+
+    color: aquamarine;
+}
 
 .resume {
 
@@ -161,16 +175,22 @@ header nav {
 
 }
 
+.resume:hover{
+    background-color:aquamarine;
+}
+
 .photo {
 
     position: relative;
 
     left: 700px;
     bottom: 300px;
-    height: 250px;
-    border-radius: 90px;
+    height: 240px;
+    border-radius: 130px;
+    width: 240px;
     border: 5px solid skyblue
 }
+
 
 
 .footer {
