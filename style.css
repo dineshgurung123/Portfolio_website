@@ -120,9 +120,9 @@ header nav {
 
 }
 
-.facebook:hover{
+.facebook:hover {
 
-color: aquamarine;
+    color: aquamarine;
 }
 
 
@@ -139,8 +139,8 @@ color: aquamarine;
 
 }
 
-.linkedin:hover{
-  color: aquamarine;
+.linkedin:hover {
+    color: aquamarine;
 }
 
 .git {
@@ -155,7 +155,7 @@ color: aquamarine;
     top: 4px;
 }
 
-.git:hover{
+.git:hover {
 
     color: aquamarine;
 }
@@ -175,8 +175,8 @@ color: aquamarine;
 
 }
 
-.resume:hover{
-    background-color:aquamarine;
+.resume:hover {
+    background-color: aquamarine;
 }
 
 .photo {
@@ -245,15 +245,15 @@ color: aquamarine;
 
 }
 
-.project-heading{
+.project-heading {
 
     position: relative;
-color: #f8f9fa;
-left: 340px;
-top: 100px;
+    color: #f8f9fa;
+    left: 340px;
+    top: 100px;
 }
 
-.table-container{
+.table-container {
 
 
     margin: 50px auto;
@@ -274,78 +274,78 @@ top: 100px;
     text-align: left;
 }
 
- .table td{
+.table td {
 
 
     padding: 12px 15px;
-   border-bottom: 1px solid skyblue;
-   
- }
- .table-name{
+    border-bottom: 1px solid skyblue;
+
+}
+
+.table-name {
     color: #f8f9fa;
     position: relative;
     top: 30px;
- }
+}
 
- .table-links{
+.table-links {
     color: #f8f9fa;
     text-decoration: none;
     position: relative;
     top: 30px;
- }
+}
 
- .table-links:hover{
+.table-links:hover {
 
     color: skyblue;
- }
+}
 
- .table-title{
+.table-title {
 
     color: #f8f9fa;
     /* background-color: red; */
     width: 50px;
     position: relative;
-    left : 30px;
+    left: 30px;
     /* top: 50px; */
- }
+}
 
 
- .contact-header{
-
-    color: #f8f9fa;
- }
-
- .contact{
+.contact-header {
 
     color: #f8f9fa;
- }
+}
 
- .contact-container{
-   min-width: 1100px;
-   padding: 20px ;
+.contact {
+
+    color: #f8f9fa;
+}
+
+.contact-container {
+    min-width: 1100px;
+    padding: 20px;
     position: relative;
     top: 100px;
-    left : 400px
-    
- }
+    left: 400px
+}
 
- .input-name{
-
-    width: 200px;
-    border-radius: 20px;
-    padding: 7px;
-    margin-top: 10px;
- }
-
- .input-email{
+.input-name {
 
     width: 200px;
     border-radius: 20px;
     padding: 7px;
     margin-top: 10px;
- }
+}
 
- .input-message{
+.input-email {
+
+    width: 200px;
+    border-radius: 20px;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+.input-message {
 
 
     width: 300px;
@@ -354,19 +354,124 @@ top: 100px;
     padding: 7px;
     margin-top: 10px;
 
- }
+}
 
- .submit{
+.submit {
 
- width: 60px;
- height: 30px;
- border-radius: 20px;
- background-color: skyblue;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: skyblue;
 
- }
+}
 
- .submit:hover{
+.submit:hover {
 
-    background-color: #f8f9fa ;
+    background-color: #f8f9fa;
     color: black;
- }
+}
+
+
+
+.skills {
+
+    position: relative;
+
+    width: 1000px;
+    /* background-color: rgb(23, 156, 21); */
+    height: 800px;
+}
+
+.skills .heading {
+    position: relative;
+    left: 200px;
+    font-size: 30px;
+    color: #f8f9fa;
+}
+
+.skills .heading span {
+
+    color: skyblue;
+}
+
+.skills-column .title {
+
+    padding: 30px;
+    color: #f8f9fa;
+}
+
+.skills-box {
+
+    position: relative;
+    border: 2px solid skyblue;
+    width: 450px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.progress h3 {
+
+    color: #f8f9fa;
+    font-size: small;
+    padding: 15px;
+}
+
+.progress h3 span {
+    color: rgb(232, 237, 238);
+    position: relative;
+    margin-left: 380px;
+    padding: 10px;
+
+}
+
+.js h3 span {
+
+    position: relative;
+
+}
+
+.c h3 span {
+
+    position: relative;
+    right: 2px;
+}
+
+
+.progress .bar {
+    position: relative;
+    left: 10px;
+    background-color: skyblue;
+    width: 420px;
+    height: 15px;
+    border: 5px solid black;
+    border-radius: 10px;
+    /* padding: 5px; */
+
+}
+
+.react  h3 span{
+
+position: relative;
+right: 50px;
+
+}
+
+.boot h3 span{
+
+    position: relative;
+    right: 60px;
+}
+
+.node h3 span{
+
+
+    position: relative;
+    right: 47px;
+}
+
+.git h3 span{
+
+
+    position: relative;
+    right: 24px;
+}

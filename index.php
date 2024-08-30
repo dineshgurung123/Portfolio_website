@@ -36,7 +36,7 @@
          
          <a   class="git"  href="https://github.com/dineshgurung123"><i class="fab fa-github"></i></a>
 
-      </div>
+      </div> 
 
       <div class="cv">
       
@@ -47,10 +47,127 @@
        
       <img class = "photo" src="Rectangle.png"  alt="">
       </div>
+          
+      
+
+     
+ <!-- skills section -->
+
+ <section class="skills" id="skills">
+
+<h2 class="heading">My <span>Skills</span></h2>
+
+<div class="skills-row">
+
+<div class="skills-column">
+<h3 class="title">Programming Languages</h3>
+
+<div class="skills-box">
+
+<div class="skills-content">
+ <div class="progress">
+ <h3>Java <span>90%</span></h3>
+ <div class="bar"><span></span></div>
+ </div>
+
+ <div class="progress">
+ <h3>PHP <span>60%</span></h3>
+ <div class="bar"><span></span></div>
+ </div>
+
+
+ <div class="progress js">
+ <h3>JavaScript <span>80%</span></h3>
+ <div class="bar"><span></span></div>
+ </div>
+
+ <div class="progress">
+ <h3>C++  <span>90%</span></h3>
+ <div class="bar"><span></span></div>
+ </div>
+
+ <div class="progress c">
+ <h3>C <span>50%</span></h3>
+ <div class="bar"><span></span></div>
+ </div>
+
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+<!-- Framework and libraries -->
+
+
+
+<div class="skills-row skills-row-framework">
+
+<div class="skills-column skills-column-framework">
+<h3 class="title">Framework and Tools </h3>
+
+<div class="skills-box skills-box-framework">
+
+<div class="skills-content skills-content-framework">
+ 
+
+<div class="progress react "> 
+ <h3>React.js<span>80%</span></h3>
+ <div class="bar bar-framework"><span></span></div>
+ </div>
+
+ <div class="progress boot">
+ <h3>Bootstrap<span>80%</span></h3>
+ <div class="bar"><span></span></div>
+ </div>
+
+
+ <div class="progress node ">
+ <h3>Node.js<span>60%</span></h3>
+ <div class="bar"><span></span></div>
+ </div>
+
+ <div class="progress git" >
+ <h3>Git<span>90%</span></h3>
+ <div class="bar"><span></span></div>
+ </div>
+
+ <div class="progress sql">
+ <h3>sql <span>70%</span></h3>
+ <div class="bar"><span></span></div>
+ </div>
+
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
 
         <?php include ('footer.php')?>
       </div>
- 
+
+
+
 
 </body>
 
