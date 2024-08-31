@@ -82,12 +82,12 @@
  </div>
 
  <div class="progress">
- <h3>C++  <span>90%</span></h3>
+ <h3>C++  <span>85%</span></h3>
  <div class="bar"><span></span></div>
  </div>
 
  <div class="progress c">
- <h3>C <span>50%</span></h3>
+ <h3>C <span>80%</span></h3>
  <div class="bar"><span></span></div>
  </div>
 
@@ -138,7 +138,7 @@
  </div>
 
  <div class="progress sql">
- <h3>sql <span>70%</span></h3>
+ <h3>MySql <span>70%</span></h3>
  <div class="bar"><span></span></div>
  </div>
 
@@ -150,18 +150,18 @@
 
 </div>
 
-
-
 </section>
 
+   <div class="education">
 
 
+   <h1>Education</h1>
 
 
+   I have completed my Bachelor of Information Technology (BIT) from Purbanchal University, studying at KIST College. This academic experience provided me with a strong foundation in various aspects of information technology, including programming, software development, and system management. My education has equipped me with the knowledge and skills to excel in the tech industry, enabling me to work on diverse projects and develop innovative solutions.
 
-
-
-
+   </div>
+  
 
         <?php include ('footer.php')?>
       </div>

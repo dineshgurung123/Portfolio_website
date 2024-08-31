@@ -384,7 +384,7 @@ header nav {
 
 .skills .heading {
     position: relative;
-    left: 200px;
+    left: 500px;
     font-size: 30px;
     color: #f8f9fa;
 }
@@ -446,6 +446,7 @@ header nav {
     border: 5px solid black;
     border-radius: 10px;
     /* padding: 5px; */
+     
 
 }
 
@@ -453,6 +454,7 @@ header nav {
 
 position: relative;
 right: 50px;
+
 
 }
 
@@ -474,4 +476,36 @@ right: 50px;
 
     position: relative;
     right: 24px;
+}
+
+.skills-row-framework{
+    position: relative;
+    left: 550px;
+    bottom: 450px;
+    
+}
+
+.skills-box-framework{
+    
+    position: relative;
+    height: 380px;
+    bottom: 15px;
+}
+
+.education{
+
+color: #f8f9fa;
+padding: 10px;
+position: relative;
+bottom: 50px;
+width: 500px;
+
+}
+
+.education h1{
+ position: relative;
+ color: #f8f9fa;
+ bottom: 10px;
+
+
 }
