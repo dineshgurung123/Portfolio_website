@@ -199,10 +199,13 @@ header nav {
     position: relative;
     margin-top: 250px;
     text-align: center;
-    padding: 10px;
-    /* margin-right: 100px; */
+    padding: 15px;
+   right: 200px;
+    background-color: rgb(15, 1, 44);
+    height: 100px;
+    width: 1500px;
+   
 
-    margin-left: 100px;
 }
 
 .footer span {
@@ -212,6 +215,23 @@ header nav {
     font-size: 20px;
 }
 
+.footer h4{
+ 
+padding: 10px;
+}
+.footer p{
+
+    padding: 2px;
+}
+
+.footer a{
+
+      text-decoration: none;
+      color: rgb(173, 175, 169);
+}
+.footer a:hover{
+    color: rgb(214, 28, 28);
+}
 
 .about {
 

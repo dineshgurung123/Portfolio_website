@@ -9,14 +9,18 @@
 <body>
     
 
+
 <div class="footers">
-      <footer class = "footer">
-    <h4>Designed by Dinesh Gurung  </br><span>⚡︎</span></h4>
-       
+  <footer class="footer">
+    <h4>Designed & Developed by <span>Dinesh Gurung</span></h4>
+    <p>&copy; 2024 Dinesh Gurung. All rights reserved.</p>
+    <p>Follow me on: 
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> | 
+      <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+    </p>
   </footer>
+</div>
 
-
-     </div>
 
 </body>
 </html>
